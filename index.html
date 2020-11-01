@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta tags-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="greenfox, házi, hf, stb" />
+    <meta name="description" content="első Greenfox-os házi feladatom" />
+    <meta name="subject" content="your entire website’s subject" />
+    <meta name="copyright" content="company name" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Your Name @your_account_on_ig" />
+    <meta name="owner" content="Owner’s Name" />
+    <meta name="url" content="Your website url" />
+
+    <title>My First Website</title>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+
+    <!--FontAwesome icons-->
+    <script src="https://kit.fontawesome.com/27ab97faf8.js" crossorigin="anonymous"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <nav class="navbar">
+        <img class="brand-logo" alt="awesome brand logo" src="/assets/aperture.svg"/>
+        <div class="links">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#definition">definitions</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span><i class="fas fa-bars"></i></span>
+    </label>
+
+    <!--MAIN CONTENT-->
+    <main>
+        <header id="about">
+            <h1>Eszter Stolmár</h1>
+            <h3><span class="css">CSS</span><span class="expert">&nbsp;ninja </span> addict.&#128514;</h3>
+            <img alt="önarckép" src="https://kittybloger.files.wordpress.com/2011/11/cat_in_bath3.jpg" />
+            <p>Eredetileg marketingesként végeztem, de már egy ideje illusztrátorként dolgozom, illetve
+                Skillshare/Udemy-n tanítok akvarell festést. Az augusztusi vizsga óta rendesen rákattantam a CSS-re. Bár
+                azért még mindig van mit tanulnom, de ha tudok, CSS-ben szívesen segítek.</p>
+            <p>Ja, profilkép is kéne? Na hát én valahogy így szoktam kinézni mikor már órák óta nem nem tudok rájönni mi
+                a @!*ért nem működnek a media query breakpoint-jaim. Mint például most.</p>
+        </header>
+
+    <!--BALL ANIMATION-->
+    <div class="ball-wrapper">
+        <div class="ball ball1"></div>
+        <div class="ball ball2"></div>
+        <div class="ball ball3"></div>
+    </div>
+
+     <!--DEFINITION-->
+    <section id="definition">
+
+        <h2>Definitions</h2>
+    <!--Glitch effect starts here-->
+        <div class="not-found-wrapper"> 
+             <div class="not-found-text">
+                <span aria-hidden="true">404 not found</span>
+                <p class="not-found-p">404 not found</p>
+                 <span aria-hidden="true">404 not found</span>
+             </div>
+        </div>
+
+         <p>Egy olyan idealizált vagy fizikai eszköz ami logikai alapműveletet valósít meg egy vagy több bináris
+                bemeneten és produkál egy bináris kimenetet.<em> Most komolyan, erre mi a jó a válasz? <span>Logikai
+                        kapu?</span> Passz. </em></p>
+
+        <h3 class="definition-title">ASCII</h3>
+        <p>As angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat értik,
+                így a 'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja le.</p>
+
+        <h3 class="definition-title">RAM</h3>
+        <p>Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó programokat és
+                a feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága független az
+                elhelyezkedésétől.</p>
+
+        <h3 class="definition-title">Programnyelv</h3>
+        <p>A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata,
+                amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel egy
+                adott feladat elvégzésének módját.</p>
+
+        <h3 class="definition-title">Domain Name System</h3>
+        <p>Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások, illetve
+                az internetre vagy egy magánhálózatra kötött bármilyen erőforrás számára.</p>
+
+        <h3 class="definition-title">HTTP</h3>
+        <p>Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A World
+                Wide Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext cseréjére és mozgatására.
+        </p>
+
+    <!-- </section>  -->
+
+    <!--CONTACT-->
+    <section id="contact">
+        <h3 class="definition-title">Get in touch with me:</h3>
+        <a class="email" href="mailto:someone@example.com">Send E-mail</a>
+    </section>
+
+</main>
+
+    <!--FOOTER-->
+    <footer class="social-links">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></i></a>
+        <a href="https://hu.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></i></a>
+    </footer>
+
+
+</body>
+
+</html>
